@@ -10,17 +10,17 @@ const NavBar = () => {
                 <h2 className="title">VentaCars</h2>
             </Link>
             <div className="Categories navbar-start">
-                <a className="button">
-                    <NavLink to={"/category/fiat"} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}>FIAT</NavLink>
+                <a className="">
+                    <NavLink to={"/category/fiat"} className={({ isActive }) => `${isActive ? "ActiveOption" : "Option"} button`}>FIAT</NavLink>
                 </a>
-                <a className="button">
-                    <NavLink to={"/category/ford"} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}>FORD</NavLink>
+                <a className="">
+                    <NavLink to={"/category/ford"} className={({ isActive }) => `${isActive ? "ActiveOption" : "Option"} button`}>FORD</NavLink>
                 </a>
-                <a className="button">
-                    <NavLink to={"/category/volkswagen"} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}>VOLKSWAGEN</NavLink>
+                <a className="">
+                    <NavLink to={"/category/volkswagen"} className={({ isActive }) => `${isActive ? "ActiveOption" : "Option"} button`}>VOLKSWAGEN</NavLink>
                 </a>
-                <a className="button">
-                    <NavLink to={"/category/renault"} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}>RENAULT</NavLink>
+                <a className="">
+                    <NavLink to={"/category/renault"} className={({ isActive }) => `${isActive ? "ActiveOption" : "Option"} button`}>RENAULT</NavLink>
                 </a>
             </div>
             <CartWidget />
