@@ -1,3 +1,23 @@
-#navMenu {
-    color: brown
+.NavBar {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: linear-gradient(to top, rgba(247, 231, 231, 0.925),rgba(194, 5, 5, 0.911));
+}
+
+.Categories {
+    display: flex;
+    gap: 10px;
+
+}
+
+.button {
+    font-weight: bold;
+    width: 120px;
+    margin-top: 1%;
 }

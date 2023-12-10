@@ -1,41 +1,33 @@
 import CartWidget from "../CartWidget/CartWidget"
 import "./NavBar.css"
+import { NavLink, Link } from "react-router-dom"
 
 const NavBar = () => {
     return (
 
-        <nav className="navbar hero is-warning">
-            <h1 className="title">VentaCars</h1>
-            <div className="container">
-                <div id="navMenu" className="navbar-menu">
-                    <div className="navbar-start">
-                        <a className="navbar-item">
-                            Marcas
-                        </a>
-                        <a className="navbar-item">
-                            Modelos
-                        </a>
-                        <a className="navbar-item">
-                            Año de fabricacion
-                        </a>
-                    </div>
-
-                    <div className="navbar-end">
-                        <div className="navbar-item">
-                            <div className="buttons">
-
-                                <a className="button is-link"><CartWidget /></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <nav className="NavBar navbar-brand ">
+            <Link to="/" className="navbar-start">
+                <h2 className="title">VentaCars</h2>
+            </Link>
+            <div className="Categories navbar-start">
+                <a className="button">
+                    <NavLink to={"/category/fiat"} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}>FIAT</NavLink>
+                </a>
+                <a className="button">
+                    <NavLink to={"/category/ford"} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}>FORD</NavLink>
+                </a>
+                <a className="button">
+                    <NavLink to={"/category/volkswagen"} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}>VOLKSWAGEN</NavLink>
+                </a>
+                <a className="button">
+                    <NavLink to={"/category/renault"} className={({ isActive }) => isActive ? "ActiveOption" : "Option"}>RENAULT</NavLink>
+                </a>
             </div>
+            <CartWidget />
         </nav>
-
-
-
-
     )
 }
 
 export default NavBar
+
+

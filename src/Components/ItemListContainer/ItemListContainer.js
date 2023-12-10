@@ -1,3 +1,4 @@
+import "./ItemListContainer.css"
 import { useState, useEffect } from "react"
 import { getProducts, getProductsByCategory } from "../../asyncMock";
 import ItemList from "../ItemList/ItemList"
@@ -22,7 +23,7 @@ const ItemListContainer = ({ greeting }) => {
     }, [categoryId])
 
     return (
-        <div>
+        <div className="layout">
             <h1>{greeting}</h1>
             <ItemList products={products} />
         </div>

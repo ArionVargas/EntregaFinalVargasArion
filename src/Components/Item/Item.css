@@ -1,5 +1,12 @@
-.CardItem {
-    margin: 5px;
-    border: 1xp solid black;
-    
+.card-image{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 20px;
+    display: flex;
+}
+
+.Header{
+    text-align: center;
+    color: black;
 }

@@ -1,0 +1,36 @@
+.CardItem {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow:  5px 5px 8px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ImgDetail{
+    width: 500px;
+    overflow: hidden;
+    margin: 20px;
+    display: flex;
+   
+}
+
+.ItemFooter {
+    display: flex;
+    justify-content: center; 
+}
+
+.ItemHeader {
+    font-size: 25px;
+    text-align: center;
+}
+
+.ContainerDetail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.SegundoConteiner{
+    display: flex;
+    flex-direction: row;
+}

@@ -3,7 +3,8 @@ import NavBar from "./Components/NavBar/NavBar"
 import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
 import "bulma/css/bulma.css"
 import ItemCount from './Components/ItemCount/ItemCount'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import ItemDetailContainer from "./Components/ItemDetailContainer/ItemDetailContainer"
 
 function App() {
   return (
@@ -26,7 +27,3 @@ function App() {
 export default App
 
 
-{/* <NavBar />
-      <ItemListContainer greeting={"Bienvenidos a mi tienda!!"}/>
-      <ItemDetailConteiner />
-      <ItemCount initial={1} stock={15} onAdd={(quantity) => console.log("cantidad agregada" ,quantity)}/> */}
