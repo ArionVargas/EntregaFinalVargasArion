@@ -10,18 +10,12 @@ const NavBar = () => {
                 <h2 className="title">VentaCars</h2>
             </Link>
             <div className="Categories navbar-start">
-                <a className="">
-                    <NavLink to={"/category/fiat"} className={({ isActive }) => `${isActive ? "ActiveOption" : "Option"} button`}>FIAT</NavLink>
-                </a>
-                <a className="">
-                    <NavLink to={"/category/ford"} className={({ isActive }) => `${isActive ? "ActiveOption" : "Option"} button`}>FORD</NavLink>
-                </a>
-                <a className="">
-                    <NavLink to={"/category/volkswagen"} className={({ isActive }) => `${isActive ? "ActiveOption" : "Option"} button`}>VOLKSWAGEN</NavLink>
-                </a>
-                <a className="">
-                    <NavLink to={"/category/renault"} className={({ isActive }) => `${isActive ? "ActiveOption" : "Option"} button`}>RENAULT</NavLink>
-                </a>
+
+                <NavLink to={"/category/fiat"} activeclassname="ActiveOption" className="Option button">FIAT</NavLink>
+                <NavLink to={"/category/ford"} activeclassname="ActiveOption" className="Option button">FORD</NavLink>
+                <NavLink to={"/category/volkswagen"} activeclassname="ActiveOption" className="Option button">VOLKSWAGEN</NavLink>
+                <NavLink to={"/category/renault"} activeclassname="ActiveOption" className="Option button">RENAULT</NavLink>
+
             </div>
             <CartWidget />
         </nav>
