@@ -3,8 +3,12 @@ import React from "react"
 import { useContext } from "react"
 /* import "/CartItem.css" */
 
-const CartItem = ({ products }) => {
-    const { removeProducts } = useContext(CartContext)
+const CartItem = ( {products} ) => {
+    
+    
+    const { removeItem } = useContext(CartContext)
+    
+
     return (
         <div className="container">
             <picture>
@@ -21,7 +25,7 @@ const CartItem = ({ products }) => {
                 <p>
                     Subtotal: {products.quantity * products.price}
                 </p>
-                <button onClick={()=> removeProducts(products.id)}>Eliminar</button>
+                <button onClick={()=> removeItem(products.id)}>Eliminar</button>
             </div>
         </div>
     )

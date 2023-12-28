@@ -8,7 +8,7 @@ import { CartContext } from "../../context/CartContext"
 const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
     const [quantityAdded, setQuantityAdded] = useState(0)
 
-    const {addItem} = useContext(CartContext)
+    const { addItem } = useContext(CartContext)
 
     const handleOnAdd = (quantity) => {
         setQuantityAdded(quantity)
@@ -16,9 +16,9 @@ const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
         const item = {
             id, name, price
         }
-
+        
         addItem(item, quantity)
-        console.log("Cantidad agregada: ")
+        console.log("Cantidad agregada: ", quantity)
     }
 
     return (
@@ -48,7 +48,7 @@ const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
                                 <Link to="/cart" className="Option">Terminar compra</Link>
                             ) : (
 
-                                <ItemCount initial={1} stock={stock} onAdd={(quantity) => handleOnAdd( quantity)} />
+                                <ItemCount initial={1} stock={stock} onAdd={(quantity) => handleOnAdd(quantity)} />
                             )
                         }
                     </footer>
