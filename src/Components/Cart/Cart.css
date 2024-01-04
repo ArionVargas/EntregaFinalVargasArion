@@ -1,0 +1,19 @@
+.ContainerCart{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Mensaje{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}

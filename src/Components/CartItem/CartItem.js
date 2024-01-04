@@ -5,14 +5,13 @@ import { useContext } from "react"
 
 const CartItem = ( {products} ) => {
     
-    
     const { removeItem } = useContext(CartContext)
     
 
     return (
-        <div className="container">
+        <div className="CardItem">
             <picture>
-                <img src={products.img} alt={products.name} className="imgContainer" />
+                <img src={products.img} alt={products.name} className="card-image" />
             </picture>
             <div className="productsCategorie">
                 <h2>
