@@ -12,7 +12,7 @@ export const CartProvider = ({ children }) => {
 
     const addItem = (item, quantity) => {
         if (!isInCart(item.id)) {
-            setCart(prev => [...prev, { ...item, quantity }])
+            setCart(prev => [...prev, { ...item, quantity , img: item.img }])
         } else {
             console.error("El producto ya fue agregado")
         }

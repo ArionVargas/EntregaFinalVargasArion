@@ -1,5 +1,5 @@
 import { useState } from "react"
-
+import "./CheckoutForm.css"
 
 
 const CheckoutForm = ({ onConfirm }) => {
@@ -18,34 +18,34 @@ const CheckoutForm = ({ onConfirm }) => {
     }
 
     return (
-        <div className="Container">
-            <form onSubmit={handleConfirm} className="Form">
-                <label className="Laber">
+        <div className="containerForm">
+            <form onSubmit={handleConfirm} className="field">
+                <label className="label">
                     Nombre
                     <input
-                        className="Input"
+                        className="input"
                         type="text"
                         value={name}
                         onChange={({ target }) => setName(target.value)} />
                 </label>
-                <label className="Label">
+                <label className="label">
                     Telefono
                     <input
-                        className="Input"
+                        className="input"
                         type="text"
                         value={phone}
                         onChange={({ target }) => setPhone(target.value)} />
                 </label>
-                <label className="Label">
+                <label className="label">
                     Email
                     <input
-                        className="Input"
+                        className="input"
                         type="email"
                         value={email}
                         onChange={({ target }) => setEmail(target.value)} />
                 </label>
-                <div className="Label">
-                    <button type="submit" className="Button">Crear Orden</button>
+                <div className="label">
+                    <button type="submit" className="button">Crear Orden</button>
                 </div>
 
             </form>

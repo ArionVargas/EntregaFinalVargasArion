@@ -19,13 +19,18 @@ const Cart = () => {
 
     return (
         <div className="ContainerCart">
+            <div>
+
+                {cart.map(p => <CartItem key={p.id} product={p} />)}
+            </div>
 
 
-            {cart.map(p => <CartItem key={p.id} products={p} />)}
+            <div>
+                <h3>Total: ${totalPrice}</h3>
+                <button onClick={() => clearCart()} className="button">Limpiar carrito</button>
+                <Link to="/checkout" className="BCart button">Checkout</Link>
 
-            <h3>Total: ${totalPrice}</h3>
-            <button onClick={() => clearCart()} className="button">Limpiar carrito</button>
-            <Link to="/checkout" className="BCart button">Checkout</Link>
+            </div>
         </div>
     )
 

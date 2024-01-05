@@ -1,19 +1,24 @@
-.ContainerCart{
+.ContainerCart {
     display: flex;
-    align-items: center;
-    
+    flex-wrap: wrap;
+    justify-content: center;
+  
+
 }
 
-.Mensaje{
+.Mensaje {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.BCart{
+.BCart {
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
+
+
+
