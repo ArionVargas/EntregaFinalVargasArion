@@ -14,11 +14,11 @@ const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
         setQuantityAdded(quantity)
 
         const item = {
-            id, name, price, img
+            id, name, price, img,stock
         }
 
         addItem(item, quantity)
-        console.log("Cantidad agregada: ", quantity)
+        
     }
 
     return (
@@ -40,6 +40,7 @@ const ItemDetail = ({ id, name, img, category, description, price, stock }) => {
                         <p className="Info">
                             Precio: ${price}
                         </p>
+                        
                     </section>
 
                     <footer className="ItemFooter">

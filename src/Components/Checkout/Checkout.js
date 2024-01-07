@@ -1,7 +1,6 @@
 import { Timestamp, addDoc, collection, writeBatch } from "firebase/firestore"
 import { useContext, useState } from "react"
 import CheckoutForm from "../CheckoutForm/CheckoutForm"
-import { Await } from "react-router-dom"
 import { CartContext } from "../../context/CartContext"
 import { db } from "../../services/firebase/firebaseConfig"
 import { getDocs, query, where, documentId } from "firebase/firestore"
@@ -13,7 +12,7 @@ const Checkout = () => {
     const [loading, setLoading] = useState(false)
     const [orderId, setOrderId] = useState("")
 
-    const { cart, total, clearCart } = useContext(CartContext)
+    const { cart, totalPrice, clearCart } = useContext(CartContext)
 
     const createOrder = async ({ name, phone, email }) => {
         setLoading(true)
@@ -24,7 +23,7 @@ const Checkout = () => {
                     name, phone, email
                 },
                 items: cart,
-                total: total,
+                total: totalPrice,
                 date: Timestamp.fromDate(new Date())
             }
 
