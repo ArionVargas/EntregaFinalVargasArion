@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+#VENTACARS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+***Bienvenidos a mi app de venta de autos 
 
-## Available Scripts
+![](https://firebasestorage.googleapis.com/v0/b/ventacars-9cb7d.appspot.com/o/Sin%20t%C3%ADtulo1.png?alt=media&token=ea2a8a06-f4ec-46ed-8bab-36c173b28010)
 
-In the project directory, you can run:
+**Aqui encontraras tu proximo vehiculo al mejor precio
 
-### `npm start`
+![](https://firebasestorage.googleapis.com/v0/b/ventacars-9cb7d.appspot.com/o/agregar.png?alt=media&token=a41eb8ec-c414-4e7f-bbc5-5d295ad2f5f6)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+***Navega entre las diferentes categorias como:
 
-### `npm test`
+*FIAT 
+![](https://firebasestorage.googleapis.com/v0/b/ventacars-9cb7d.appspot.com/o/Sin%20t%C3%ADtulo.png?alt=media&token=7feddbb8-d922-464a-ab8b-3c17179186ba)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+*FORD
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](https://firebasestorage.googleapis.com/v0/b/ventacars-9cb7d.appspot.com/o/ford.png?alt=media&token=255bff52-553a-4be7-9b0a-af949f8f63ac)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*RENAULT
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](https://firebasestorage.googleapis.com/v0/b/ventacars-9cb7d.appspot.com/o/renault.png?alt=media&token=16c6bba2-609f-499a-85a7-c4dd540461df)
 
-### `npm run eject`
+*VOLKSWAGEN
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![](https://firebasestorage.googleapis.com/v0/b/ventacars-9cb7d.appspot.com/o/volks.png?alt=media&token=7d7a103f-3ab6-4568-848a-eafbfb19cee7)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**En el carrito terminas la operacion 
 
-## Learn More
+![](https://firebasestorage.googleapis.com/v0/b/ventacars-9cb7d.appspot.com/o/carrito.png?alt=media&token=39f37d77-b65e-49e3-baf6-3ed6636fe5b0)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`realiza la compra y te enviaremos por mail tu confirmacion y tu ID de la compra`

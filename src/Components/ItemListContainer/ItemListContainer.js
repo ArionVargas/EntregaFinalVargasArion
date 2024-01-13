@@ -42,7 +42,8 @@ const ItemListContainer = ({ greeting }) => {
     <div className="layout">
       <h1>{greeting}</h1>
       {loading ? (
-        <p>Cargando...</p>
+        <p>Cargando</p>
+    
       ) : error ? (
         <p>{error}</p>
       ) : (

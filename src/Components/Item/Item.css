@@ -1,12 +1,22 @@
+.CardItem{
+    color: black;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.925),rgba(240, 20, 20, 0.911))
+}
 .card-image{
     width: 300px;
     height: 200px;
     overflow: hidden;
     margin: 20px;
     display: flex;
+    
 }
 
 .Header{
     text-align: center;
     color: black;
+    
+}
+
+.detalle{
+    width: 100%;
 }

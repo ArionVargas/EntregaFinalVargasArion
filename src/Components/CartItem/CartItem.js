@@ -9,7 +9,7 @@ const CartItem = ( {product} ) => {
     
   
     return (
-        <div className="CardItem">
+        <div>
             <picture>
                 <img src={product.img} alt={product.name} className="card-image" />
             </picture>
@@ -24,7 +24,7 @@ const CartItem = ( {product} ) => {
                 <p>
                     Subtotal: {product.quantity * product.price}
                 </p>
-                <button onClick={()=> removeItem(product.id)}>Eliminar</button>
+                <button className="button is-small" onClick={()=> removeItem(product.id)}>Eliminar</button>
             </div>
         </div>
     )
