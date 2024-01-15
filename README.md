@@ -1,4 +1,4 @@
-# VENTACARS :tw-1f698:
+# VENTACARS
 
 
 ## Bienvenidos a mi app de venta de autos 
